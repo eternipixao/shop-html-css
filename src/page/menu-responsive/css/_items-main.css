@@ -1,0 +1,24 @@
+#page-menu-responsive .items-main
+{
+    width: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+
+#page-menu-responsive .items-main .item
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    font-size: 0.9rem;
+
+    color: var(--color-4);
+}
+
+#page-menu-responsive .items-main .item:hover
+{
+    background-color: var(--color-6);
+    color: var(--color-3);
+}

@@ -1,0 +1,68 @@
+#page-menu-responsive .items-bottom
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 0;
+    border-top: 2px solid var(--color-6);
+}
+
+#page-menu-responsive .items-bottom .links
+{
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#page-menu-responsive .items-bottom .links a
+{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition-property: color, font-size;
+    transition-duration: 0.5s;
+    color: var(--color-4);
+}
+
+#page-menu-responsive .items-bottom .links a:hover
+{
+    font-size: 20px;
+    color: var(--color-3);
+}
+
+#page-menu-responsive .items-bottom .app
+{
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#page-menu-responsive .items-bottom .app .copy
+{
+    font-size: 0.8rem;
+    color: var(--color-4);
+}
+
+#page-menu-responsive .items-bottom .app .year
+{
+    font-size: 1rem;
+    color: var(--color-4);
+}
+
+#page-menu-responsive .items-bottom .app .name
+{
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bolder;
+    color: var(--color-4);
+}

@@ -1,0 +1,28 @@
+#page-ending
+{
+    width: 100%;
+    background-color: var(--color-6);
+}
+
+#page-ending .container
+{
+    width: 1000px;
+    margin: auto;
+}
+
+
+@media (max-width: 1000px)
+{
+    #page-ending .container
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #page-ending .container
+    {
+        justify-content: center;
+    }
+}

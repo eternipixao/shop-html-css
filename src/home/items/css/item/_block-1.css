@@ -1,0 +1,54 @@
+.s-items .items .item .block-1
+{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.s-items .items .item .block-1 img
+{
+    display: block;
+    max-width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.s-items .items .item .block-1 .options
+{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 80px);
+    justify-content: center;
+    gap: 10px;
+}
+
+.s-items .items .item .block-1 .options .option
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: var(--color-2);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.s-items .items .item .block-1 .options .option .icon
+{
+    font-size: 15px;
+    color: var(--color-3);
+}
+
+.s-items .items .item .block-1 .options .option .label
+{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: var(--color-4);
+}

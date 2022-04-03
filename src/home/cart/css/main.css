@@ -1,0 +1,33 @@
+:root
+{
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #3a405a;
+    --color-4: #538790;
+    --color-5: #00000063;
+    --color-6: #f5f8fa;
+}
+
+.s-cart
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 10px;
+    border-top: 2px solid var(--color-6);
+}
+
+.s-cart .container
+{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+}
+
+@media (max-width: 1000px)
+{
+    .s-cart .container
+    {
+        flex-direction: column;
+    }
+}

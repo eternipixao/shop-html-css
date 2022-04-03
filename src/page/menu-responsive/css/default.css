@@ -1,0 +1,53 @@
+:root
+{
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #3a405a;
+    --color-4: #538790;
+    --color-5: #00000063;
+    --color-6: #f5f8fa;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body
+{
+    width: 100%;
+    height: 100vh;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-message
+{
+    font-size: 1.1rem;
+    color: var(--color-4);
+}
+
+#page-message .remove
+{
+    display: none;
+}
+
+@media (max-width: 1100px)
+{
+    #page-message .resize
+    {
+        display: none;
+    }
+
+    #page-message .remove
+    {
+        display: block;
+    }
+}

@@ -1,0 +1,8 @@
+.s-cart .container .items .block-2
+{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

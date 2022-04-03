@@ -1,0 +1,20 @@
+.s-cart .container .items .block-2 .cart
+{
+    width: 100%;
+    flex: 1;
+    display: none;
+    gap: 25px;
+}
+
+.s-cart .container .items .block-2.not-empty .cart
+{
+    display: flex;
+}
+
+@media (max-width: 1000px)
+{
+    .s-cart .container .items .block-2 .cart
+    {
+        flex-direction: column;
+    }
+}

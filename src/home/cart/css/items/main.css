@@ -1,0 +1,28 @@
+.s-cart .container .items
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: var(--color-6);
+}
+
+@media (max-width: 1000px)
+{
+    .s-cart .container .items
+    {
+        width: 500px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .s-cart .container .items
+    {
+        width: calc(100% - 20px);
+    }
+}

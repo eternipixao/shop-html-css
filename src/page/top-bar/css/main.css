@@ -1,0 +1,96 @@
+#page-top-bar
+{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+#page-top-bar.mode-scroll
+{
+    background-color: var(--color-2);
+    border-bottom: 1px solid var(--color-6);
+}
+
+#page-top-bar .container
+{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#page-top-bar .container a
+{
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+#page-top-bar .container a:hover
+{
+    color: var(--color-3);
+}
+
+#page-top-bar .container .item-logo
+{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#page-top-bar .container .item-logo .logo
+{
+    width: 50px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#page-top-bar .container .item-logo .logo img
+{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page-top-bar .container .item-logo .name
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#page-top-bar .container .items-main
+{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#page-top-bar .container .items-main .item
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1100px)
+{
+    #page-top-bar
+    {
+        display: none;
+    }
+}

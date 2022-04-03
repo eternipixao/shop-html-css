@@ -1,0 +1,94 @@
+#page-button-menu
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 100;
+    box-sizing: border-box;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+
+    background-color: var(--color-2);
+    box-shadow: 1px 1px 4px var(--color-5);
+}
+
+#page-button-menu::before,
+#page-button-menu::after
+{
+    content: '';
+    display: block;
+}
+
+#page-button-menu::before,
+#page-button-menu::after,
+#page-button-menu div
+{
+    height: 2px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    /*
+        https://cubic-bezier.com/
+    */
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+
+    background-color: var(--color-3);
+}
+
+#page-button-menu::before
+{
+    width: 60%;
+}
+
+#page-button-menu div
+{
+    width: 80%;
+}
+
+#page-button-menu::after
+{
+    width: 30%;
+}
+
+#page-button-menu:hover::before,
+#page-button-menu:hover::after,
+#page-button-menu:hover div
+#page-button-menu.selected::before,
+#page-button-menu.selected::after,
+#page-button-menu.selected div
+{
+    background-color: var(--color-4);
+}
+
+#page-button-menu:hover::before,
+#page-button-menu.selected::before
+{
+    width: 80%;
+}
+
+#page-button-menu:hover div,
+#page-button-menu.selected div
+{
+    width: 30%;
+}
+
+#page-button-menu:hover::after,
+#page-button-menu.selected::after
+{
+    width: 60%;
+}
+
+@media (max-width: 1100px)
+{
+    #page-button-menu
+    {
+        display: flex;
+    }
+}

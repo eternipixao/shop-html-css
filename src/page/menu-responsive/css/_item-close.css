@@ -1,0 +1,22 @@
+#page-menu-responsive .item-close
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#page-menu-responsive .item-close .btn-close
+{
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+    
+    color: var(--color-4);
+}
+
+#page-menu-responsive .item-close .btn-close:hover
+{
+    color: var(--color-3);
+}

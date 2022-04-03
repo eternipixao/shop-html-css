@@ -1,0 +1,42 @@
+#page-menu-responsive .item-logo
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-sizing: border-box;
+    padding: 0 25px;
+    margin-top: 50px;
+
+    color: var(--color-4);
+}
+
+#page-menu-responsive .item-logo .logo
+{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+#page-menu-responsive .item-logo .logo img
+{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page-menu-responsive .item-logo .name
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px 25px;
+}
+
+#page-menu-responsive .item-logo:hover
+{
+    background-color: var(--color-6);
+    color: var(--color-3);
+}

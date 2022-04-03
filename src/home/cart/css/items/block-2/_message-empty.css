@@ -1,0 +1,15 @@
+.s-cart .container .items .block-2 .message-empty
+{
+    width: 100%;
+    flex: 1;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-4);
+}
+
+.s-cart .container .items .block-2.not-empty .message-empty
+{
+    display: none;
+}

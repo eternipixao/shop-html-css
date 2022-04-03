@@ -1,0 +1,34 @@
+:root
+{
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #3a405a;
+    --color-4: #538790;
+    --color-5: #00000063;
+    --color-6: #f5f8fa;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body
+{
+    width: 100%;
+    min-height: 100vh;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#page-content
+{
+    width: 100%;
+    flex: 1;
+}

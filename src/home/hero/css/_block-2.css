@@ -1,0 +1,42 @@
+.s-hero .container .block-2
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 100px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.s-hero .container .block-2 h1
+{
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: var(--color-3);
+}
+
+.s-hero .container .block-2 .frame
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.s-hero .container .block-2 .frame img
+{
+    display: block;
+    width: 110%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+
+
+
+

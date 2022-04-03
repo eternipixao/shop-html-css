@@ -1,0 +1,49 @@
+.s-hero .container .block-1
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.s-hero .container .block-1 .text
+{
+    font-size: 1.3rem;
+    line-height: 1.2;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color: var(--color-4);
+}
+
+.s-hero .container .block-1 .frame
+{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-bottom-left-radius: 150px; /* (width) 300px / 2 */
+    border-bottom-right-radius: 150px; /* (width) 300px / 2 */
+    order: -1;
+    margin-left: 250px;
+}
+
+@media (min-width: 1001px) and (max-width: 1300px)
+{
+    .s-hero .container .block-1 .frame
+    {
+        align-self: flex-start;
+        margin-left: 270px;
+    }   
+}
+
+/* Tablet, Mobile, ... Small Screen */
+@media (max-width: 1000px)
+{
+    .s-hero .container .block-1 .frame
+    {
+        align-self: auto;
+        margin-left: 0;
+    }
+}

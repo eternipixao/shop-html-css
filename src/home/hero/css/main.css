@@ -1,0 +1,30 @@
+:root
+{
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #3a405a;
+    --color-4: #538790;
+
+}
+
+.s-hero
+{
+    width: 100%;
+    background-color: var(--color-2);
+}
+
+.s-hero .container
+{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+@media (max-width: 1300px)
+{
+    .s-hero .container
+    {
+        flex-direction: column;
+    }
+}
+

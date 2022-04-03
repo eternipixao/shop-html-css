@@ -1,0 +1,30 @@
+#page-ending .container .block-app
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+#page-ending .container .block-app .copy
+{
+    font-size: 0.8rem;
+    color: var(--color-4);
+}
+
+#page-ending .container .block-app .year
+{
+    font-size: 1rem;
+    color: var(--color-4);
+}
+
+#page-ending .container .block-app .name
+{
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bolder;
+    color: var(--color-3);
+}

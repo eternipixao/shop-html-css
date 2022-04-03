@@ -1,0 +1,51 @@
+#page-ending .container .block-top
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#page-ending .container .block-top .message
+{
+    box-sizing: border-box;
+    padding: 25px;
+    font-size: 0.9rem;
+    font-style: oblique;
+    color: var(--color-4);
+}
+
+#page-ending .container .block-top .links
+{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+#page-ending .container .block-top .links .link
+{
+    font-size: 20px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+
+    color: var(--color-4);
+}
+
+#page-ending .container .block-top .links .link:hover
+{
+    color: var(--color-3);
+}
+
+@media (max-width: 768px)
+{
+    #page-ending .container .message
+    {
+        display: none;
+    }
+}
