@@ -1,6 +1,6 @@
 # HTML - CSS
 
-This Project is if you bought the Package “HTML - CSS” and you want redo this Project step by step.
+This Project is if you bought the Package “From Zero - HTML - CSS” and you want redo this Project step by step.
 
 ### The Aims
 ---
